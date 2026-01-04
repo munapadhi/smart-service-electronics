@@ -86,8 +86,10 @@ export default function Enquiry() {
 
   return (
     <Layout
-      title="Send Enquiry - SmartService Electronic PVT LTD"
-      description="Send us your enquiry for electrical and electronics services. We'll get back to you promptly."
+      title="Send Enquiry - Get Free Quote for Electrical & Electronics Services | Berhampur"
+      description="Send your enquiry to SmartService Electronic for AC installation, repair, CCTV, RO purifier, washing machine, refrigerator service in Berhampur, Odisha. Get free quote, quick response via email or WhatsApp. Expert technicians available."
+      keywords="enquiry electrical services Berhampur, get quote AC repair Odisha, request service Berhampur, AC installation quote, appliance repair enquiry Odisha, free estimate electrical service"
+      canonicalUrl="https://smartserviceelectronics.com/enquiry"
     >
       {/* Hero Section */}
       <section className={styles['enquiry-hero']}>

@@ -272,7 +272,12 @@ export default function Home() {
   ];
 
   return (
-    <Layout>
+    <Layout
+      title="Best Electrical & Electronics Services in Berhampur, Odisha | SmartService Electronic"
+      description="SmartService Electronic PVT LTD - Leading electrical and electronics service provider in Berhampur, Odisha. Expert AC Installation, Repair, Maintenance, AMC, CCTV Installation, RO Water Purifier, Washing Machine, Refrigerator, Geyser, Inverter Service. Call: 8018335500, 9337933995"
+      keywords="best electrical services Berhampur, top electronics repair Odisha, AC service Berhampur, AC installation Orissa, home appliance repair Berhampur, electrician near me Berhampur, 24/7 electrical service Odisha"
+      canonicalUrl="https://smartserviceelectronics.com"
+    >
       {/* Hero Slider Section */}
       <section className={styles['slider-section']}>
         <div className={styles['slider-container']}>

@@ -15,8 +15,10 @@ export default function Contact() {
 
   return (
     <Layout
-      title="Contact Us - SmartService Electronic PVT LTD"
-      description="Get in touch with SmartService Electronic. Call us at 8018335500 or 9337933995(Kuna Padhy) for electrical and electronics services."
+      title="Contact Us - Call 8018335500, 9337933995 | SmartService Electronic Berhampur"
+      description="Contact SmartService Electronic PVT LTD for electrical and electronics services in Berhampur, Odisha. Phone: 8018335500, 9337933995. WhatsApp available. Fast response, emergency service available 24/7."
+      keywords="contact electrician Berhampur, emergency electrical service Odisha, AC repair contact Berhampur, electronics service phone number Berhampur, 24/7 appliance repair Odisha, electrician near me contact"
+      canonicalUrl="https://smartserviceelectronics.com/contact"
     >
       {/* Hero Section */}
       <section className={styles['contact-hero']}>

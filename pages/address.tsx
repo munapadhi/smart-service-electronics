@@ -14,8 +14,10 @@ export default function Address() {
 
   return (
     <Layout
-      title="Our Address - SmartService Electronic PVT LTD"
-      description="Visit us at Daluastreet, Berhampur, Orissa - 760002. Find directions and location details."
+      title="Visit Our Shop - Daluastreet, Berhampur, Odisha 760002 | SmartService Electronic"
+      description="SmartService Electronic PVT LTD located at Daluastreet, Berhampur, Odisha - 760002. Best electrical and electronics service center near you. Visit us for AC service, CCTV installation, RO purifier, appliance repair. Get directions on Google Maps."
+      keywords="electrical shop Berhampur, electronics service center Odisha, AC service center Berhampur, appliance repair shop Daluastreet, electrician shop near me Berhampur, CCTV shop Odisha"
+      canonicalUrl="https://smartserviceelectronics.com/address"
     >
       {/* Hero Section */}
       <section className={styles['address-hero']}>

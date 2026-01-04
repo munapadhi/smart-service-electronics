@@ -229,8 +229,10 @@ export default function Services() {
 
   return (
     <Layout
-      title="Our Services - SmartService Electronic PVT LTD"
-      description="Professional AC Service, CCTV Installation, CCTV Maintenance, and Electronics Repair services in Berhampur, Orissa."
+      title="Our Services - AC, CCTV, RO, Washing Machine Repair | Berhampur, Odisha"
+      description="Complete list of electrical and electronics services in Berhampur, Odisha: AC Installation & Repair, AC Maintenance & AMC, Electrical Wiring, CCTV Installation & Repair, RO Water Purifier Service, Washing Machine, Refrigerator, Geyser, Inverter, Treadmill Repair, Fan & Light Installation."
+      keywords="AC installation Berhampur, AC repair Odisha, AC maintenance Berhampur, AC AMC Orissa, electrical wiring Berhampur, CCTV installation Odisha, CCTV repair Berhampur, RO water purifier Berhampur, washing machine repair Odisha, refrigerator service Berhampur, geyser repair Orissa, inverter service Berhampur, treadmill repair Odisha, fan installation Berhampur"
+      canonicalUrl="https://smartserviceelectronics.com/services"
     >
       {/* Hero Section */}
       <section className={styles['services-hero']}>

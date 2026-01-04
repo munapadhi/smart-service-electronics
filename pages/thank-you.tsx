@@ -10,8 +10,9 @@ import styles from '@/styles/ThankYou.module.css';
 export default function ThankYou() {
   return (
     <Layout
-      title="Thank You - SmartService Electronic PVT LTD"
-      description="Thank you for your enquiry. We'll get back to you soon."
+      title="Thank You - Enquiry Received | SmartService Electronic Berhampur"
+      description="Thank you for contacting SmartService Electronic PVT LTD. We have received your enquiry and will respond within 24 hours. For urgent assistance, call 8018335500 or 9337933995."
+      canonicalUrl="https://smartserviceelectronics.com/thank-you"
     >
       <div className={styles['thankyou-container']}>
         <div className={styles['thankyou-card']}>
