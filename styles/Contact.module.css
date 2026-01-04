@@ -1,0 +1,216 @@
+/* Contact Page Styles */
+
+.contact-hero {
+    background: linear-gradient(135deg, #ea580c 0%, #f97316 100%);
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.contact-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.contact-section {
+    padding: 5rem 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.contact-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 3px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-color: var(--primary-color);
+}
+
+.contact-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.contact-card h3 {
+    color: var(--dark-color);
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.contact-card p {
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.contact-numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.phone-number {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: var(--light-color);
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.phone-number:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: scale(1.05);
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.action-buttons .btn {
+    width: 100%;
+}
+
+/* Quick Contact Section */
+.quick-contact {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #3b82f6 100%);
+    color: white;
+    padding: 4rem 2rem;
+    margin-top: 4rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.quick-contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.quick-contact p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+
+.quick-contact-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Business Hours */
+.business-hours {
+    background: white;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.business-hours h3 {
+    color: var(--dark-color);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.hours-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.hours-item {
+    padding: 1.5rem;
+    background-color: var(--light-color);
+    border-radius: 0.75rem;
+    border: 2px solid var(--border-color);
+}
+
+.hours-item strong {
+    display: block;
+    color: var(--dark-color);
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.hours-item span {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-card {
+        padding: 2rem;
+    }
+
+    .phone-number {
+        font-size: 1.25rem;
+    }
+
+    .quick-contact h2 {
+        font-size: 2rem;
+    }
+
+    .quick-contact-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hours-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-hero h1 {
+        font-size: 2rem;
+    }
+
+    .contact-icon {
+        font-size: 3rem;
+    }
+
+    .quick-contact {
+        padding: 3rem 1.5rem;
+    }
+}
